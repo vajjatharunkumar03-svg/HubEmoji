@@ -46,3 +46,10 @@ search.addEventListener("keypress", function(e){
 // CATEGORY BUTTONS
 // ==========================
 
+
+
+function toggleMenu(){
+
+document.getElementById("navbar").classList.toggle("show");
+
+}
