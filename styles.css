@@ -472,3 +472,16 @@ transform:translateX(0);
 
 }
 
+@media (max-width:768px){
+
+    #emojiBox{
+        grid-template-columns:repeat(5,1fr);
+        gap:8px;
+    }
+
+    #emojiBox .emoji-card{
+        height:60px;
+        font-size:16px;
+    }
+
+}
